@@ -27,3 +27,6 @@ main {
     display: flex;
     width: 90%;
 }
+#right {
+  background-color: var(--white);
+}
