@@ -83,8 +83,23 @@ input {
   border-radius: 0.6em;
   font-weight: 600;
   color: var(--Dark-Blue);
-  border: 1px solid var(--Grayish-Blue);
+  border: 2px solid var(--Grayish-Blue);
   text-transform: capitalize;
+  outline: none;
+}
+.error-msg {
+  color: var(--Red);
+  text-align: right;
+  margin-top: -1em;
+  font-size: 0.7em;
+  display: none;
+}
+.input-with-error {
+  background-image: url(./images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: 95%;
+  color: var(--Red);
+  border-color: var(--Red);
 }
 button {
   margin-top: 1em;

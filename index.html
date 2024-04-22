@@ -32,10 +32,14 @@
           </p>
         </div>
         <div id="form">
-          <input type="text" placeholder="First Name" />
-          <input type="text" placeholder="Last Name" />
-          <input type="email" placeholder="Email Address" />
+          <input type="text" id="firstName" placeholder="First Name"  />
+          <p class="error-msg">First Name is invalid or empty</p>
+          <input type="text" id="lastName" placeholder="Last Name" />
+          <p class="error-msg">Last Name is invalid or empty</p>
+          <input type="email" style="text-transform: none;" placeholder="Email Address" />
+          <p class="error-msg">Email is invalid or empty</p>
           <input type="password" placeholder="Password" />
+          <p class="error-msg">Password is invalid or empty</p>
           <button type="submit">Claim your free trial</button>
           <small>
             By clicking the button, you are agreeing to our
