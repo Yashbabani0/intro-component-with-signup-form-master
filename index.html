@@ -17,12 +17,11 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
-      .attribution {
-        font-size: 11px;
+      .attribution,a {
+        font-size: 1em;
+        font-weight: 600;
         text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: white;
       }
     </style>
   </head>
@@ -38,7 +37,7 @@
       </div>
       <div id="right">
         <div id="offer">
-          <p><b>Try it free 7 days</b>then $20/mo. thereafter</p>
+          <p id="offerPrice"><b>Try it free 7 days</b> then $20/mo. thereafter</p>
         </div>
         <div id="form">
           <input type="text" placeholder="First Name" />
@@ -47,7 +46,7 @@
           <input type="password" placeholder="Password" />
           <button type="submit">Claim your free trial</button>
           <small>
-            By clicking the button, you are agreeing to our Terms and Services
+            By clicking the button, you are agreeing to our <span>Terms and Services</span>
           </small>
         </div>
       </div>
@@ -58,7 +57,7 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="https://github.com/Yashbabani0">Yash Babani</a>.
       </p>
     </footer>
   </body>
